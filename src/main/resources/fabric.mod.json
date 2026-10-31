@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "nomeaclient",
+  "version": "${version}",
+  "name": "Nomea Client",
+  "description": "A premium Black and Red Minecraft Client Mod.",
+  "authors": [
+    "Nomea Team"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.nomea.client.NomeaClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
