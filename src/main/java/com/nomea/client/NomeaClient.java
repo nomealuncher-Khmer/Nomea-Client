@@ -6,7 +6,11 @@ public class NomeaClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
+
         System.out.println("NOMEA CLIENT LOADED!");
-        System.out.println("Welcome to Nomea Client!");
+
+        NomeaHud.register();
+
+        System.out.println("NOMEA HUD ACTIVATED!");
     }
 }
